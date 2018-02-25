@@ -14,3 +14,6 @@ When ready build production bundle with
 You can preview the production build with
 
     npm run server
+
+
+For more information see [package.json](/package.json)
