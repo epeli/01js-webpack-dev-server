@@ -9,7 +9,7 @@
   },
   "scripts": {
     "build": "webpack --mode production",
-    "dev-server": "webpack-dev-server --host 0.0.0.0 --disable-host-check  --mode development",
+    "dev-server": "webpack-dev-server --mode development",
     "server": "serve --port 8080 ."
   }
 }
