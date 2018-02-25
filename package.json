@@ -1,17 +1,15 @@
 {
-  "name": "webpacktest",
-  "version": "1.0.0",
-  "description": "",
+  "name": "0cjs-webpack-dev-server",
   "main": "index.js",
   "dependencies": {
+    "serve": "^6.5.0",
     "webpack": "^4.0.0",
     "webpack-cli": "^2.0.9",
     "webpack-dev-server": "^3.0.0"
   },
-  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC"
+    "build": "webpack --mode production",
+    "dev-server": "webpack-dev-server --host 0.0.0.0 --disable-host-check  --mode development",
+    "server": "serve --port 8080 ."
+  }
 }
