@@ -1,6 +1,8 @@
 
 # Zero config Webpack development
 
+### Live reloads without webpack.config.js!
+
 Start development server with
 
     npm run dev-server
