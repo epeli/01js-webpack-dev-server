@@ -10,6 +10,6 @@
   "scripts": {
     "build": "webpack --mode production",
     "dev-server": "webpack-dev-server --mode development",
-    "server": "serve --port 8080 ."
+    "server": "serve --port 8080"
   }
 }
