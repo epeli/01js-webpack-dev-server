@@ -1,6 +1,8 @@
 
 # Zero config Webpack development
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/epeli/0cjs-webpack-dev-server.svg)](https://greenkeeper.io/)
+
 ### Live reloads without webpack.config.js!
 
 Start development server with
